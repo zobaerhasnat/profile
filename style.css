@@ -40,8 +40,7 @@
     color: blueviolet;
 }
 .fullPic> img{
-   height: 300px;
-   width: 200px;
+   height: 400px;
 }
 .name{
    font-size: 50px;
@@ -54,7 +53,8 @@
 }
 
 .university{
-    font-size: 20px;
+    font-size: 30px;
+    padding: 30px 0px 20px;
 }
 
 .cv{
@@ -80,20 +80,28 @@
 .educ{
     background-color: gray;
     color: white;
+   
 }
 .edu{
     padding-top: 20px;
     font-size: 40px;
     text-align: center;
-    text-decoration: underline;
+    color: antiquewhite;
     margin-bottom: 20px;
     
 }
 .education {
     display: flex;
-    font-size: 20px;
+    font-size: 30px;
     justify-content: space-around;
-    padding: 10px 0 30px;
+    padding: 0 0 30px;
+}
+
+.education div{
+    padding: 30px;
+    width: 33%;
+    border: 1px solid aqua;
+    margin: 5px;
 }
 /* education section style ended */
 
@@ -101,14 +109,21 @@
 .skil h3{
     font-size: 30px;
 }
+.skil{
+    background-color: yellow;
+    padding-top: 20px;
+}
+.skil>h3{
+    text-align: center;
+    font-size: 40px;
+}
 .skills{
     display: flex;
-    background-color: yellow;
     padding: 30px;
 }
 
 .skills div{
-    padding: 20px;
+    padding: 5px 20px 5px;
 }
 .htm{
     font-size: 30px;
@@ -135,6 +150,15 @@
 /* skills style ended here */
 
 /* Experience style started */
+.exp{
+    background-color: antiquewhite;
+}
+.exp>h3{
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+    color: #000;
+}
 .powerland{
     justify-content: center;
 }
@@ -142,7 +166,6 @@
     display: flex;
     justify-content: space-around;
     font-size: 24px;
-    background-color: antiquewhite;
     padding: 30px;
 }
 
@@ -151,6 +174,8 @@
 /* Goal Section Started */
 .target{
     text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 30px;
 }
 .target h3{
     font-size: 40px;
@@ -161,6 +186,22 @@
 /* Goal Section Ended */
 
 /* footer style Started */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.contact{
+    font-size: 30px;
+}
+.send{
+    padding: 10px;
+    font-size: 15px;
+    background-color: forestgreen;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
 .copyright{
     text-align: center;
     padding: 10px 0 10px;
