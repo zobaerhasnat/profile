@@ -57,11 +57,29 @@
     font-size: 20px;
 }
 
+.cv{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: orange;
+    border-color:greenyellow ;
+    border: 0;
+
+}
+
+.cv a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
 /* Introduction section style ended */
 
 /* education section style started */
 .educ{
     background-color: gray;
+    color: white;
 }
 .edu{
     padding-top: 20px;
@@ -80,10 +98,39 @@
 /* education section style ended */
 
 /* skills style started here */
+.skil h3{
+    font-size: 30px;
+}
 .skills{
     display: flex;
     background-color: yellow;
+    padding: 30px;
+}
+
+.skills div{
     padding: 20px;
+}
+.htm{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.htmlDetail{
+    font-size: 20px;
+}
+
+.cs{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.cssDetail{
+    font-size: 20px;
+}
+.java{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.javaDetail{
+    font-size: 20px;
 }
 /* skills style ended here */
 
@@ -91,5 +138,31 @@
 .powerland{
     justify-content: center;
 }
+.experience{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    background-color: antiquewhite;
+    padding: 30px;
+}
 
 /* Experience style ended */
+
+/* Goal Section Started */
+.target{
+    text-align: center;
+}
+.target h3{
+    font-size: 40px;
+}
+.goal{
+    font-size: 20px;
+}
+/* Goal Section Ended */
+
+/* footer style Started */
+.copyright{
+    text-align: center;
+    padding: 10px 0 10px;
+}
+/* footer style ended */
