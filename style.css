@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* navbar style starts here */
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.navbar ul{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar ul  li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    padding: 50px;
+    margin: 0px 30px 0;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* navbar style ends here */
+
+/* Introduction section style started */
+.introduction{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: greenyellow;
+    color: blueviolet;
+}
+.fullPic> img{
+   height: 300px;
+   width: 200px;
+}
+.name{
+   font-size: 50px;
+   
+}
+
+.department{
+    color: rgba(111, 138, 111, 0.5);
+    padding-bottom: 10px;
+}
+
+.university{
+    font-size: 20px;
+}
+
+/* Introduction section style ended */
+
+/* education section style started */
+.educ{
+    background-color: gray;
+}
+.edu{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    
+}
+.education {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 10px 0 30px;
+}
+/* education section style ended */
+
+/* skills style started here */
+.skills{
+    display: flex;
+    background-color: yellow;
+    padding: 20px;
+}
+/* skills style ended here */
+
+/* Experience style started */
+.powerland{
+    justify-content: center;
+}
+
+/* Experience style ended */
